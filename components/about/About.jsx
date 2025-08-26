@@ -2,6 +2,7 @@ import { skills2 } from "@/data/progress";
 import React from "react";
 import ProgressBarComponent from "../common/ProgressBar";
 import Image from "next/image";
+import { companyInfo } from "@/data/companyinfo";
 
 export default function About() {
   return (
@@ -40,14 +41,10 @@ export default function About() {
           {/*/column */}
           <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] !mt-[30px] max-w-full">
             <h3 className="!text-[calc(1.285rem_+_0.42vw)] font-bold xl:!text-[1.6rem] !leading-[1.3] !mb-5">
-              The full service we are offering is specifically designed to meet
-              your business needs and projects.
+              {companyInfo.aboutUs.vision}
             </h3>
             <p>
-              Integer posuere erat a ante venenatis dapibus posuere velit
-              aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at
-              eros. Praesent commodo cursus magna, vel scelerisque nisl
-              consectetur duis mollis commodo.
+              {companyInfo.aboutUs.mission}
             </p>
           </div>
           {/*/column */}
@@ -82,10 +79,9 @@ export default function About() {
                 d="M351.8 330.6c-5.4 0-10.2-3.6-11.8-8.8l-91-306c-2.1-6.5 1.3-13.4 7.8-15.6 6.5-2.1 13.4 1.3 15.6 7.8.1.3.2.5.2.8l91 305.9c1.9 6.5-1.8 13.4-8.3 15.3-1.1.4-2.3.6-3.5.6zM338 91.7c-6.8 0-12.3-5.5-12.3-12.3 0-1.8.4-3.6 1.2-5.3l13.4-28.5c2.9-6.2 10.2-8.8 16.4-5.9 6.2 2.9 8.8 10.2 5.9 16.4l-13.4 28.5c-2.1 4.3-6.4 7.1-11.2 7.1zm28.2 64.9c-6.8 0-12.3-5.5-12.3-12.3 0-5.7 3.9-10.6 9.4-12l31.1-7.5c6.6-1.5 13.2 2.6 14.7 9.3 1.5 6.5-2.5 13-9 14.7l-31.2 7.4c-.8.3-1.8.4-2.7.4zm29.1 90c-2.7 0-5.4-.9-7.5-2.6l-24.9-19.4c-5.4-4.2-6.3-11.9-2.2-17.3s11.9-6.3 17.3-2.2l24.9 19.4c5.4 4.2 6.3 11.9 2.1 17.3-2.3 3-5.9 4.7-9.7 4.8z"
               />
             </svg>
-            <h4>Marketing</h4>
+            <h4>{companyInfo.aboutUs.coreValues[0]}</h4>
             <p className="!mb-2">
-              Nulla vitae elit libero, a pharetra augue. Donec id elit non mi
-              porta gravida at eget metus. Cras justo cum sociis natoque magnis.
+              {companyInfo.aboutUs.purposeDetails[0]}
             </p>
           </div>
           {/*/column */}
@@ -117,10 +113,9 @@ export default function About() {
                 d="M283.8 55.7c-55.3 0-108.8 20.1-150.4 56.7l-15.2-15.2 4.5-40.4c.5-4.5-1.1-9-4.3-12.2L78.3 4.4c-5.8-5.8-15.3-5.8-21.1 0L4.4 57.2c-5.8 5.8-5.8 15.3 0 21.1l40.1 40.1c2.8 2.8 6.6 4.4 10.6 4.4.5 0 1.1 0 1.6-.1l40.4-4.5 15.2 15.2c-36.6 41.5-56.7 95-56.7 150.4C55.7 409.6 158 512 283.8 512c66.2 0 129.1-28.7 172.4-78.7 5.6-6.1 5.1-15.6-1-21.1s-15.6-5.1-21.1 1l-.5.5c-37.7 43.4-92.3 68.4-149.8 68.4-109.3 0-198.3-89-198.3-198.3 0-47.4 17-93.3 48-129.2l140.2 140.2c5.8 5.8 15.3 5.8 21.1 0s5.8-15.3 0-21.1L154.6 133.5c35.9-31 81.8-48 129.2-48 109.4 0 198.3 89 198.3 198.3 0 8.3 6.7 14.9 14.9 14.9s14.9-6.7 14.9-14.9C512 158 409.6 55.7 283.8 55.7zM36.1 67.8l31.7-31.7 24.5 24.5-3.2 28.5-28.5 3.2-24.5-24.5z"
               />
             </svg>
-            <h4>Strategy</h4>
+            <h4>{companyInfo.aboutUs.coreValues[1]}</h4>
             <p className="!mb-2">
-              Nulla vitae elit libero, a pharetra augue. Donec id elit non mi
-              porta gravida at eget metus. Cras justo cum sociis natoque magnis.
+              {companyInfo.aboutUs.purposeDetails[1]}
             </p>
           </div>
           {/*/column */}
@@ -145,10 +140,9 @@ export default function About() {
                 d="M392.5 286.1H291.9c-8 0-14.5-6.5-14.5-14.5 0-2.8.8-5.5 2.3-7.8 8.4-13.1 4.6-30.6-8.6-39-13.1-8.4-30.6-4.6-39 8.6-5.9 9.3-5.9 21.1 0 30.4 4.3 6.7 2.4 15.7-4.3 20-2.3 1.5-5.1 2.3-7.8 2.3H119.4c-8 0-14.5-6.5-14.4-14.5v-50.3c0-7.1 5.2-13.1 12.2-14.3l21.8-3.5c4.7-12.2 11.3-23.6 19.5-33.7l-7.9-20.6c-2.5-6.6.1-14.1 6.3-17.7l47.3-27.3c6.2-3.5 14-2.1 18.5 3.4l13.9 17.1c12.9-2 26.1-2 39 0l13.9-17.1c4.5-5.5 12.3-7 18.5-3.4l47.3 27.3c6.2 3.6 8.8 11.1 6.3 17.7l-7.9 20.6c8.2 10.2 14.7 21.5 19.4 33.7l21.8 3.5c7 1.1 12.2 7.2 12.2 14.3v50.3c-.1 8-6.6 14.5-14.6 14.5zm-80-29h65.6v-23.5l-18.2-2.9c-5.5-.9-10-4.8-11.6-10.1-4.3-14.2-11.9-27.2-22-38-3.8-4-5-9.9-3-15.1l6.6-17.2-25.9-15-11.6 14.3c-3.5 4.3-9.1 6.2-14.5 5-14.5-3.3-29.5-3.3-43.9 0-5.4 1.2-11-.7-14.5-5l-11.6-14.3-25.9 15 6.6 17.2c2 5.2.8 11-3 15.1-10.1 10.8-17.7 23.8-22 38-1.6 5.3-6.1 9.2-11.6 10.1l-18.2 2.9v23.5h65.6c-.4-2.8-.6-5.7-.6-8.6.4-31.6 26.3-56.8 57.9-56.4 31 .4 56 25.4 56.4 56.4 0 2.9-.2 5.8-.6 8.6z"
               />
             </svg>
-            <h4>Development</h4>
+            <h4>{companyInfo.aboutUs.coreValues[2]}</h4>
             <p className="!mb-2">
-              Nulla vitae elit libero, a pharetra augue. Donec id elit non mi
-              porta gravida at eget metus. Cras justo cum sociis natoque magnis.
+              {companyInfo.aboutUs.purposeDetails[2]}
             </p>
           </div>
           {/*/column */}
@@ -168,10 +162,9 @@ export default function About() {
                 d="M498.5 404.2h-11.8V161.7c0-7.5-6-13.5-13.5-13.5s-13.5 6-13.5 13.5v242.5h-59.6V94.3h73.1c7.4 0 13.5-6 13.5-13.5s-6-13.5-13.5-13.5h-74.1V13.5c0-7.4-6-13.5-13.5-13.5H299c-7.4 0-13.5 6-13.5 13.5v134.8h-59.7v-27c0-7.4-6-13.5-13.5-13.5h-73.6V33.7c0-7.4-6-13.5-13.5-13.5H38.7c-7.4 0-13.5 6-13.5 13.5v294.4c0 7.5 6 13.5 13.5 13.5s13.5-6 13.5-13.5V47.2h59.7v357.1H13.5c-7.4.2-13.3 6.4-13.1 13.8.2 7.2 6 12.9 13.1 13.1h485.1c7.4-.2 13.3-6.4 13.1-13.8-.3-7.2-6-13-13.2-13.2zM139.3 134.7H199v269.5h-59.7V134.7zm86.6 40.5h59.7v229h-59.7v-229zm86.6 229V27h59.7v377.2h-59.7z"
               />
             </svg>
-            <h4>Data Analysis</h4>
+            <h4>{companyInfo.aboutUs.coreValues[3]}</h4>
             <p className="!mb-2">
-              Nulla vitae elit libero, a pharetra augue. Donec id elit non mi
-              porta gravida at eget metus. Cras justo cum sociis natoque magnis.
+              {companyInfo.aboutUs.purposeDetails[3]}
             </p>
           </div>
           {/*/column */}

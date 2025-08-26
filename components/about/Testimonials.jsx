@@ -1,10 +1,10 @@
 "use client";
 import { brands } from "@/data/brands";
-import { testimonials } from "@/data/testimonials";
 import Image from "next/image";
 import React from "react";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { companyInfo } from "@/data/companyinfo";
 
 export default function Testimonials() {
   return (
@@ -39,18 +39,10 @@ export default function Testimonials() {
                   el: ".spd79",
                 }}
               >
-                {testimonials.map((elm, i) => (
+                {companyInfo.benefits.map((benefit, i) => (
                   <SwiperSlide key={i} className="swiper-slide">
                     <blockquote className="icon icon-top text-[1rem] !text-center relative pt-[3.75rem] p-0 border-0 !leading-[1.7] font-medium m-[0_0_1rem] before:translate-x-[-52%] before:left-2/4 before:content-['\201c'] before:!text-[#aab0bc] before:opacity-30 before:text-[6.5rem] before:font-normal before:absolute before:leading-none before:z-[1] before:top-0">
-                      <p>“{elm.quote}”</p>
-                      <div className="flex items-center justify-center !text-center">
-                        <div className="info !pl-0">
-                          <h5 className="!mb-1 text-[.95rem] !leading-[1.5]">
-                            {elm.name}
-                          </h5>
-                          <p className="!mb-0 text-[0.8rem]">{elm.title}</p>
-                        </div>
-                      </div>
+                      <p>“{benefit}”</p>
                     </blockquote>
                   </SwiperSlide>
                 ))}

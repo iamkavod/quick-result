@@ -73,48 +73,16 @@ export default function Features() {
           creative strategy and along with great design.
         </p>
         <p className="!mb-6">
-          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget
-          quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur
-          et.
+        Quick Result MPCS was founded in 2004 by eight women, initially as 'Ladies Seal Multipurpose Cooperative'. It expanded to include men and friends, growing significantly after 2016. During the 2020 COVID-19 pandemic, it innovated by offering quick loans and new contribution schemes for Food, Housing, and Lands.
         </p>
         <div className="flex flex-wrap mx-[-15px] !mt-[-15px] xl:mx-[-20px]">
-          <div className="xl:w-6/12 w-full flex-[0_0_auto] !mt-[15px] xl:!px-[20px] !px-[15px] max-w-full">
-            <ul className="pl-0 list-none bullet-bg bullet-soft-primary !mb-0">
-              <li className="relative !pl-6">
-                <span>
-                  <i className="uil uil-check w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] !text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell absolute left-0" />
-                </span>
-                <span>Aenean eu leo quam ornare curabitur blandit tempus.</span>
-              </li>
-              <li className="relative !pl-6 !mt-3">
-                <span>
-                  <i className="uil uil-check w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] !text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell absolute left-0" />
-                </span>
-                <span>
-                  Nullam quis risus eget urna mollis ornare donec elit.
-                </span>
-              </li>
-            </ul>
-          </div>
-          {/*/column */}
-          <div className="xl:w-6/12 w-full flex-[0_0_auto] !mt-[15px] xl:!px-[20px] !px-[15px] max-w-full">
-            <ul className="pl-0 list-none bullet-bg bullet-soft-primary !mb-0">
-              <li className="relative !pl-6">
-                <span>
-                  <i className="uil uil-check w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] !text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell absolute left-0" />
-                </span>
-                <span>Etiam porta sem malesuada magna mollis euismod.</span>
-              </li>
-              <li className="relative !pl-6 !mt-3">
-                <span>
-                  <i className="uil uil-check w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] !text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell absolute left-0" />
-                </span>
-                <span>Fermentum massa vivamus faucibus amet euismod.</span>
-              </li>
-            </ul>
-          </div>
-          {/*/column */}
+        <a
+                href="/about"
+                className="btn btn-lg btn-grape !text-white !bg-[#605dba] border-[#605dba] hover:text-white hover:bg-[#605dba] hover:!border-[#605dba] active:text-white active:bg-[#605dba] active:border-[#605dba] disabled:text-white disabled:bg-[#605dba] disabled:border-[#605dba] btn-icon btn-icon-end !rounded-[0.8rem] xl:mx-1 lg:mx-1 md:mx-1 !mb-2 xl:!mb-0 lg:!mb-0 md:!mb-0 scroll"
+              >
+                Learn More
+                <i className="uil uil-arrow-up-right before:content-['\e950'] !ml-[0.3rem]" />
+              </a>
         </div>
         {/*/.row */}
       </div>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { companyInfo } from "@/data/companyinfo";
 
 export default function Contact() {
   return (
@@ -20,16 +21,16 @@ export default function Contact() {
           </div>
           {/*/column */}
           <div className="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] !mt-[50px] max-w-full">
-            <h2 className="!text-[.75rem] uppercase text-line relative align-top !pl-[1.4rem] inline-flex !tracking-[0.02rem] !leading-[1.35] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#3f78e0] !text-[#3f78e0] !mb-3">
+            <h2 className="!text-[.75rem] uppercase text-line relative align-top !pl-[1.4rem] inline-flex !tracking-[0.02rem] !leading-[1.35] before:content-[\'\'] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#3f78e0] !text-[#3f78e0] !mb-3">
               Get In Touch
             </h2>
             <h3 className="!text-[calc(1.285rem_+_0.42vw)] font-bold xl:!text-[1.6rem] !leading-[1.3] !mb-7">
-              Got any questions? Don't hesitate to get in touch.
+              {companyInfo.aboutUs.mission}
             </h3>
             <div className="flex flex-row">
               <div>
                 <div className="icon !text-[#3f78e0] xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-4 !mt-[-0.25rem]">
-                  <i className="uil uil-location-pin-alt before:content-['\ebd8']" />
+                  <i className="uil uil-location-pin-alt before:content-[\'\ebd8\']" />
                 </div>
               </div>
               <div>
@@ -42,7 +43,7 @@ export default function Contact() {
             <div className="flex flex-row">
               <div>
                 <div className="icon !text-[#3f78e0] xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-4 !mt-[-0.25rem]">
-                  <i className="uil uil-phone-volume before:content-['\ec50']" />
+                  <i className="uil uil-phone-volume before:content-[\'\ec50\']" />
                 </div>
               </div>
               <div>
@@ -53,7 +54,7 @@ export default function Contact() {
             <div className="flex flex-row">
               <div>
                 <div className="icon !text-[#3f78e0] xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-4 !mt-[-0.25rem]">
-                  <i className="uil uil-envelope before:content-['\eac8']" />
+                  <i className="uil uil-envelope before:content-[\'\eac8\']" />
                 </div>
               </div>
               <div>

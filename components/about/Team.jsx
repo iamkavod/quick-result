@@ -1,10 +1,10 @@
 "use client";
 import { socialLinks } from "@/data/socials";
-import { slidesData } from "@/data/team";
 import Image from "next/image";
 import React from "react";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { companyInfo } from "@/data/companyinfo";
 
 export default function Team() {
   return (
@@ -16,11 +16,10 @@ export default function Team() {
               Meet the Team
             </h2>
             <h3 className="!text-[calc(1.285rem_+_0.42vw)] font-bold xl:!text-[1.6rem] !leading-[1.3] !mb-5">
-              Save your time and money by choosing our professional team.
+              Meet our professional team members.
             </h3>
             <p>
-              Donec id elit non mi porta gravida at eget metus. Morbi leo risus,
-              porta ac consectetur ac, vestibulum at eros tempus porttitor.
+              {companyInfo.aboutUs.mission}
             </p>
             <a
               href="#"
@@ -56,36 +55,39 @@ export default function Team() {
                   el: ".spd80",
                 }}
               >
-                {slidesData.map((elm, i) => (
-                  <SwiperSlide key={i} className="swiper-slide">
-                    <Image
-                      className="rounded-[50%] w-40 !mx-auto !mb-4"
-                      alt="image"
-                      src={elm.imageSrc}
-                      width={300}
-                      height={300}
-                    />
-                    <h4 className="!mb-1">{elm.name}</h4>
-                    <div className="!text-[0.65rem] uppercase !tracking-[0.02rem] font-bold !text-[#aab0bc] !mb-2">
-                      {elm.role}
-                    </div>
-                    <p className="!mb-2">{elm.description}</p>
-                    <nav className="nav social justify-center !text-center !mb-0">
-                      {socialLinks.slice(0, 3).map((elm, i) => (
-                        <a
-                          className="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
-                          href={elm.href}
-                          key={i}
-                        >
-                          <i
-                            className={`uil ${elm.icon} before:content-[${elm.unicode}] text-[1rem] !text-[${elm.color}]`}
-                          />
-                        </a>
-                      ))}
-                    </nav>
-                    {/* /.social */}
-                  </SwiperSlide>
-                ))}
+                {companyInfo.team.map((member, i) => {
+                  const [name, role] = member.split(' - ');
+                  return (
+                    <SwiperSlide key={i} className="swiper-slide">
+                      <Image
+                        className="rounded-[50%] w-40 !mx-auto !mb-4"
+                        alt="image"
+                        src="/assets/img/avatars/t1.jpg" // Placeholder image
+                        width={300}
+                        height={300}
+                      />
+                      <h4 className="!mb-1">{name}</h4>
+                      <div className="!text-[0.65rem] uppercase !tracking-[0.02rem] font-bold !text-[#aab0bc] !mb-2">
+                        {role}
+                      </div>
+                      <p className="!mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
+                      <nav className="nav social justify-center !text-center !mb-0">
+                        {socialLinks.slice(0, 3).map((elm, i) => (
+                          <a
+                            className="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
+                            href={elm.href}
+                            key={i}
+                          >
+                            <i
+                              className={`uil ${elm.icon} before:content-[${elm.unicode}] text-[1rem] !text-[${elm.color}]`}
+                            />
+                          </a>
+                        ))}
+                      </nav>
+                      {/* /.social */}
+                    </SwiperSlide>
+                  );
+                })}
 
                 {/*/.swiper-wrapper */}
               </Swiper>

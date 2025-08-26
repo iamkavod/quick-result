@@ -106,14 +106,13 @@ export default function Hero() {
           </div>
           <div data-cues="slideInDown" data-group="page-title">
             <h1 className="xl:!text-[3.2rem] !text-[calc(1.445rem_+_2.34vw)] font-semibold !leading-[1.15] !mb-5 md:mx-10 lg:mx-0 xl:mx-0">
-              Create a powerful but effortless website for <br />
+            Connecting members for the purpose of <br />
               <span className="rotator-fade !text-[#605dba]">
                 <AnimatedText />
               </span>
             </h1>
             <p className="lead !text-[1.2rem] !leading-[1.6] !mb-8">
-              You can create your website in minutes with the help of countless
-              amazing features of Sandbox.
+            We strive to build a society that motivates and inspires all to achieve their full potential.
             </p>
           </div>
           <div
@@ -126,7 +125,7 @@ export default function Hero() {
                 href="#demos"
                 className="btn btn-lg btn-grape !text-white !bg-[#605dba] border-[#605dba] hover:text-white hover:bg-[#605dba] hover:!border-[#605dba] active:text-white active:bg-[#605dba] active:border-[#605dba] disabled:text-white disabled:bg-[#605dba] disabled:border-[#605dba] btn-icon btn-icon-end !rounded-[0.8rem] xl:mx-1 lg:mx-1 md:mx-1 !mb-2 xl:!mb-0 lg:!mb-0 md:!mb-0 scroll"
               >
-                See Demo Pages
+                Join Us
                 <i className="uil uil-arrow-down-right before:content-['\e944'] !ml-[0.3rem]" />
               </a>
             </span>
@@ -136,7 +135,7 @@ export default function Hero() {
                 className="btn btn-lg btn-fuchsia !text-white !bg-[#e668b3] border-[#e668b3] hover:text-white hover:bg-[#e668b3] hover:!border-[#e668b3] active:text-white active:bg-[#e668b3] active:border-[#e668b3] disabled:text-white disabled:bg-[#e668b3] disabled:border-[#e668b3] btn-icon btn-icon-end !rounded-[0.8rem] xl:mx-1 lg:mx-1 md:mx-1"
                 target="_blank"
               >
-                Tailwind HTML
+                Contact
                 <i className="uil uil-arrow-up-right !ml-[.3rem] before:content-['\e950']" />
               </a>
             </span>

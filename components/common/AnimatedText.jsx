@@ -2,10 +2,9 @@
 import React, { useState, useEffect } from "react";
 
 const stringsDefault = [
-  "your business.",
-  "your portfolio.",
-  "your startup.",
-  "digital marketing.",
+  "rapid individual growth.",
+  "business growth.",
+  "sustainable wealth",
 ];
 
 const AnimatedText = ({ strings = stringsDefault }) => {

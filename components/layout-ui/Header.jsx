@@ -3,7 +3,7 @@ import Nav from "./Nav";
 import Link from "next/link";
 import Image from "next/image";
 import { socialLinks } from "@/data/socials";
-export default function Header1() {
+export default function Header() {
   return (
     <header className="!absolute w-full header1">
       <nav className="navbar navbar-expand-lg center-nav transparent navbar-light">

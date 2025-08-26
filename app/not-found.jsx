@@ -1,5 +1,5 @@
 import Footer5 from "@/components/footers/Footer5";
-import Header32 from "@/components/headers/Header32";
+import Header from "@/components/layout-ui/Header";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -14,10 +14,7 @@ export default function NotFoundPage() {
   return (
     <>
       <div className="grow shrink-0">
-        <Header32
-          parentClass="relative wrapper !bg-[#ffffff]"
-          navClass="navbar navbar-expand-lg center-nav transparent navbar-light"
-        />
+        <Header />
         <section className="wrapper !bg-[#ffffff]">
           <div className="container pt-14 xl:pt-[4.5rem] lg:pt-[4.5rem] md:pt-[4.5rem] pb-[4.5rem] xl:pb-24 lg:pb-24 md:pb-24">
             <div className="flex flex-wrap mx-[-15px]">
