@@ -13,15 +13,15 @@ export default function Header20() {
             <Link href={`/`}>
               <Image
                 className="logo-dark"
-                srcSet="/assets/img/logo-purple@2x.png 2x"
+                srcSet="/assets/img/logo-tropical-pink.svg 2x"
                 alt="image"
-                src="/assets/img/logo-purple.png"
+                src="/assets/img/logo-tropical-pink.svg"
                 width={134}
                 height={26}
               />
               <Image
                 className="logo-light"
-                srcSet="/assets/img/logo-light@2x.png 2x"
+                srcSet="/assets/img/logo-light.svg 2x"
                 alt="image"
                 src="/assets/img/logo-light.png"
                 width={134}

@@ -2,7 +2,7 @@ import Cta from "@/components/common/Cta";
 import Contact1 from "@/components/contact/Contact1";
 import Footer from "@/components/layout-ui/Footer";
 import Header from "@/components/layout-ui/Header";
-import React from "react";
+import Link from "next/link";
 
 export const metadata = {
   title:
@@ -16,7 +16,7 @@ export default function ContactPage() {
       <div className="grow shrink-0">
         <Header />
         <section
-          className="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 !text-white bg-no-repeat bg-[center_center] bg-cover relative z-0 !bg-fixed before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.4)]"
+          className="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 !text-white bg-no-repeat bg-[center_center] bg-cover relative z-0 !bg-fixed before:content-[''] before:block before:absolute before:z-[1] before:size-full before:left-0 before:top-0 before:bg-gradient-to-b before:from-white/80 before:to-black/30"
           style={{ backgroundImage: "url(/assets/img/photos/bg3.jpg)" }}
         >
           <div className="container pt-28 pb-40 xl:pt-36 lg:pt-36 md:pt-36 xl:pb-[12.5rem] lg:pb-[12.5rem] md:pb-[12.5rem] !text-center">
@@ -28,9 +28,9 @@ export default function ContactPage() {
                 <nav className="inline-block" aria-label="breadcrumb">
                   <ol className="breadcrumb flex flex-wrap bg-[none] p-0 !rounded-none list-none !mb-[20px]">
                     <li className="breadcrumb-item flex !text-[#60697b]">
-                      <a className="!text-white hover:text-white" href="#">
+                      <Link className="!text-white hover:text-white" href="/">
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li
                       className="breadcrumb-item flex !text-white !pl-2 before:font-normal before:!flex before:items-center before:text-[rgba(255,255,255,.5)] before:content-['\e931'] before:text-[0.9rem] before:-mt-px before:!pr-2 before:font-Unicons active"

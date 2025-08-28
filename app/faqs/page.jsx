@@ -44,16 +44,14 @@ export default function FaqsPage() {
                   an email from our contact form.
                 </h3>
                 <p className="lead text-[0.9rem] font-medium !leading-[1.65] !mb-6">
-                  Duis mollis, est non commodo luctus, nisi erat porttitor
-                  ligula, eget lacinia odio sem nec elit. Nullam quis risus eget
-                  urna mollis ornare.
+                  Learn more about Quick Result MPCS and how we can help you achieve your financial goals.
                 </p>
-                <a
-                  href="#"
+                <Link
+                  href="/membership"
                   className="btn btn-primary !text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:!border-[#3f78e0] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0] !rounded-[50rem] hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]"
                 >
                   Join Us
-                </a>
+                </Link>
               </div>
               {/*/column */}
               <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[50px]">
@@ -70,7 +68,7 @@ export default function FaqsPage() {
                         aria-expanded="false"
                         aria-controls="accordion-collapse-3-1"
                       >
-                        How do I get my subscription receipt?
+                        What services and products does Quick Result MPCS offer?
                       </button>
                     </div>
                     {/* /.card-header */}
@@ -82,14 +80,7 @@ export default function FaqsPage() {
                     >
                       <div className="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
                         <p>
-                          Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                          condimentum nibh, ut fermentum massa justo sit amet
-                          risus. Cras mattis consectetur purus sit amet
-                          fermentum. Praesent commodo cursus magna, vel
-                          scelerisque nisl consectetur et. Cum sociis natoque
-                          penatibus et magnis dis parturient montes, nascetur
-                          ridiculus mus. Donec sed odio dui. Cras justo odio,
-                          dapibus ac facilisis.
+                          Quick Result MPCS offers a wide range of services including quick loans for members, daily, weekly, monthly, long-term monthly target, mega, and birthday contributions. We also facilitate Food & Agro wealth, Lands & Housing, Automobile Car, Household & Special Items, Electronics & Digital gadgets, Education, and Travel & Vacation contributions.
                         </p>
                       </div>
                       {/* /.card-body */}
@@ -109,7 +100,7 @@ export default function FaqsPage() {
                         aria-expanded="false"
                         aria-controls="accordion-collapse-3-2"
                       >
-                        Are there any discounts for people in need?
+                        Who is eligible to join Quick Result MPCS?
                       </button>
                     </div>
                     {/* /.card-header */}
@@ -121,14 +112,7 @@ export default function FaqsPage() {
                     >
                       <div className="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
                         <p>
-                          Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                          condimentum nibh, ut fermentum massa justo sit amet
-                          risus. Cras mattis consectetur purus sit amet
-                          fermentum. Praesent commodo cursus magna, vel
-                          scelerisque nisl consectetur et. Cum sociis natoque
-                          penatibus et magnis dis parturient montes, nascetur
-                          ridiculus mus. Donec sed odio dui. Cras justo odio,
-                          dapibus ac facilisis.
+                          Membership is open to individuals aged 18 and above, including workers, entrepreneurs, students, farmers, market men and women, traders, ladies & gentlemen, CEOs, and those in the upper and middle class.
                         </p>
                       </div>
                       {/* /.card-body */}
@@ -148,7 +132,7 @@ export default function FaqsPage() {
                         aria-expanded="false"
                         aria-controls="accordion-collapse-3-3"
                       >
-                        Do you offer a free trial edit?
+                        What are the benefits of joining Quick Result MPCS?
                       </button>
                     </div>
                     {/* /.card-header */}
@@ -160,14 +144,7 @@ export default function FaqsPage() {
                     >
                       <div className="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
                         <p>
-                          Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                          condimentum nibh, ut fermentum massa justo sit amet
-                          risus. Cras mattis consectetur purus sit amet
-                          fermentum. Praesent commodo cursus magna, vel
-                          scelerisque nisl consectetur et. Cum sociis natoque
-                          penatibus et magnis dis parturient montes, nascetur
-                          ridiculus mus. Donec sed odio dui. Cras justo odio,
-                          dapibus ac facilisis.
+                          Members gain access to quick loans, start-up and scale-up funds, food and agro wealth, lands and housing, birthday and milestone celebration proceeds, phones and laptops, household items, travel fares and vacation, semi-project financing, and assistance with house rents & mortgages.
                         </p>
                       </div>
                       {/* /.card-body */}
@@ -187,7 +164,7 @@ export default function FaqsPage() {
                         aria-expanded="false"
                         aria-controls="accordion-collapse-3-4"
                       >
-                        How do I reset my Account password?
+                        How does Quick Result MPCS support its members?
                       </button>
                     </div>
                     {/* /.card-header */}
@@ -199,14 +176,7 @@ export default function FaqsPage() {
                     >
                       <div className="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
                         <p>
-                          Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                          condimentum nibh, ut fermentum massa justo sit amet
-                          risus. Cras mattis consectetur purus sit amet
-                          fermentum. Praesent commodo cursus magna, vel
-                          scelerisque nisl consectetur et. Cum sociis natoque
-                          penatibus et magnis dis parturient montes, nascetur
-                          ridiculus mus. Donec sed odio dui. Cras justo odio,
-                          dapibus ac facilisis.
+                          We support and collaborate to improve the lives of our clients and the growth of their businesses. We prioritize value enhancement, long-term relationships with fair terms, and strive to build a society that motivates and inspires all to achieve their full potential.
                         </p>
                       </div>
                       {/* /.card-body */}

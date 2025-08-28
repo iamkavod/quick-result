@@ -20,10 +20,10 @@ export default function AboutPage() {
             <div className="flex flex-wrap mx-[-15px]">
               <div className="xl:w-5/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto !mb-6">
                 <h1 className="!text-[calc(1.365rem_+_1.38vw)] font-bold !leading-[1.2] xl:!text-[2.4rem] !mb-3">
-                  {companyInfo.aboutUs.purpose}
+                 About Us
                 </h1>
                 <p className="lead text-[0.9rem] font-medium !leading-[1.65] !mb-0">
-                  {companyInfo.slogan}
+                  Enriching lives
                 </p>
               </div>
               {/* /column */}
@@ -207,7 +207,7 @@ export default function AboutPage() {
                         aria-expanded="true"
                         aria-controls="collapseOne"
                       >
-                        Professional Design
+                        Societal development
                       </button>
                     </div>
                     {/*/.card-header */}
@@ -219,10 +219,7 @@ export default function AboutPage() {
                     >
                       <div className="card-body !p-[0_0_0_1.1rem]">
                         <p>
-                          Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                          condimentum nibh, ut fermentum massa justo sit amet
-                          risus. Cras mattis consectetur purus sit amet
-                          fermentum. Praesent commodo cursus magna, vel.
+                        We strive to build a society that motivates and inspires all to achieve their full potential.
                         </p>
                       </div>
                       {/*/.card-body */}
@@ -242,7 +239,7 @@ export default function AboutPage() {
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
-                        Top-Notch Support
+                        Collaboration
                       </button>
                     </div>
                     {/*/.card-header */}
@@ -254,10 +251,7 @@ export default function AboutPage() {
                     >
                       <div className="card-body !p-[0_0_0_1.1rem]">
                         <p>
-                          Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                          condimentum nibh, ut fermentum massa justo sit amet
-                          risus. Cras mattis consectetur purus sit amet
-                          fermentum. Praesent commodo cursus magna, vel.
+                        We support, collaborate in order to improve the life of our clients and growth of our clients business.
                         </p>
                       </div>
                       {/*/.card-body */}
@@ -277,7 +271,7 @@ export default function AboutPage() {
                         aria-expanded="false"
                         aria-controls="collapseThree"
                       >
-                        Header and Slider Options
+                        Priority
                       </button>
                     </div>
                     {/*/.card-header */}
@@ -289,10 +283,7 @@ export default function AboutPage() {
                     >
                       <div className="card-body !p-[0_0_0_1.1rem]">
                         <p>
-                          Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                          condimentum nibh, ut fermentum massa justo sit amet
-                          risus. Cras mattis consectetur purus sit amet
-                          fermentum. Praesent commodo cursus magna, vel.
+                        We prioritize value enhancement in our day to day business relationship. We also prioritize long term relationship and offer fair terms with our partners.
                         </p>
                       </div>
                       {/*/.card-body */}

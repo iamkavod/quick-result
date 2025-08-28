@@ -7,7 +7,7 @@ import { companyInfo } from "@/data/companyinfo";
 export default function Benefits() {
   return (
     <section id="snippet-1" className="wrapper !bg-[#ffffff] ">
-      <div className="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
+      <div className="py-4">
         <p className="text-center text-xl !mb-8">Benefits of Joining</p>
         <div className="swiper-container clients !mb-36 relative z-10">
           <Swiper
@@ -18,21 +18,18 @@ export default function Benefits() {
               delay: 1,
             }}
             breakpoints={{
-              0: { slidesPerView: 3 },
+              0: { slidesPerView: 1 },
               575: {
-                slidesPerView: 3,
+                slidesPerView: 2,
               },
               768: {
-                slidesPerView: 4,
+                slidesPerView: 3,
               },
               992: {
                 slidesPerView: 5,
               },
-              1200: {
-                slidesPerView: 6,
-              },
               1400: {
-                slidesPerView: 7,
+                slidesPerView: 6,
               },
             }}
             speed={5000}

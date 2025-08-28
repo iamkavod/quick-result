@@ -1,8 +1,7 @@
-import Pricing from "@/components/common/Pricing";
-import About from "@/components/homes/home-13/About";
-import Cta from "@/components/homes/home-4/Cta";
 import Footer from "@/components/layout-ui/Footer";
 import Header from "@/components/layout-ui/Header";
+import About from "./About";
+import WhatWeDo from "./WhatWeDo";
 
 export const metadata = {
   title:
@@ -10,7 +9,7 @@ export const metadata = {
   description:
     "Sandbox - Modern & Multipurpose React Next.js Template with Tailwind CSS",
 };
-export default function ServicesPage1() {
+export default function ServicesPage() {
   return (
     <>
       <div className="grow shrink-0">
@@ -37,8 +36,7 @@ export default function ServicesPage1() {
           {/* /.container */}
         </section>
         <About />
-        <Cta />
-        <Pricing />
+        <WhatWeDo />
       </div>
       <Footer hasMarginTop={false} />
     </>

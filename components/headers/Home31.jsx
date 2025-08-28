@@ -34,9 +34,9 @@ export default function Home31() {
           <div className="navbar-brand w-full">
             <Link href={`/`}>
               <Image
-                srcSet="/assets/img/logo-purple@2x.png 2x"
+                srcSet="/assets/img/logo-tropical-pink.svg 2x"
                 alt="image"
-                src="/assets/img/logo-purple.png"
+                src="/assets/img/logo-tropical-pink.svg"
                 width={134}
                 height={26}
               />

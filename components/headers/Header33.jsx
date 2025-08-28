@@ -22,7 +22,7 @@ export default function Header33() {
               />
               <Image
                 className="logo-light"
-                srcSet="/assets/img/logo-light@2x.png 2x"
+                srcSet="/assets/img/logo-light.svg 2x"
                 alt="image"
                 src="/assets/img/logo-light.png"
                 width={134}

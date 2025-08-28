@@ -13,11 +13,11 @@ export default function Footer2() {
             <div className="widget">
               <Image
                 className="!mb-4"
-                srcSet="/assets/img/logo-dark@2x.png 2x"
+                srcSet="/assets/img/logo-dark.svg 2x"
                 alt="image"
                 width={134}
                 height={26}
-                src="/assets/img/logo-dark.png"
+                src="/assets/img/logo-dark.svg"
               />
               <p className="!mb-4">
                 © {new Date().getFullYear()} Sandbox.{" "}

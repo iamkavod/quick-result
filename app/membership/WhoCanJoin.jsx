@@ -7,7 +7,7 @@ import { companyInfo } from "@/data/companyinfo";
 export default function WhoCanJoin() {
   return (
     <section id="snippet-1" className="wrapper !bg-[#ffffff] ">
-      <div className="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
+      <div className="py-4">
         <p className="text-center text-xl !mb-8">Who Can Join?</p>
         <div className="swiper-container clients !mb-36 relative z-10">
           <Swiper

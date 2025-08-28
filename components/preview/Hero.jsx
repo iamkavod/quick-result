@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import AnimatedText from "../common/AnimatedText";
+import Link from "next/link";
 export default function Hero() {
   return (
     <div className="container pt-36 xl:pt-[12.5rem] lg:pt-[12.5rem] md:pt-[12.5rem] pb-24 xl:pb-32 lg:pb-32 md:pb-32 !text-center !relative">
@@ -121,23 +122,22 @@ export default function Hero() {
             data-delay={600}
           >
             <span>
-              <a
-                href="#demos"
+              <Link
+                href="/membership"
                 className="btn btn-lg btn-grape !text-white !bg-[#605dba] border-[#605dba] hover:text-white hover:bg-[#605dba] hover:!border-[#605dba] active:text-white active:bg-[#605dba] active:border-[#605dba] disabled:text-white disabled:bg-[#605dba] disabled:border-[#605dba] btn-icon btn-icon-end !rounded-[0.8rem] xl:mx-1 lg:mx-1 md:mx-1 !mb-2 xl:!mb-0 lg:!mb-0 md:!mb-0 scroll"
               >
                 Join Us
                 <i className="uil uil-arrow-down-right before:content-['\e944'] !ml-[0.3rem]" />
-              </a>
+              </Link>
             </span>
             <span>
-              <a
-                href="https://themeforest.net/item/sandbox-modern-multipurpose-tailwind-css-template/51340309"
+              <Link
+                href="/contact"
                 className="btn btn-lg btn-fuchsia !text-white !bg-[#e668b3] border-[#e668b3] hover:text-white hover:bg-[#e668b3] hover:!border-[#e668b3] active:text-white active:bg-[#e668b3] active:border-[#e668b3] disabled:text-white disabled:bg-[#e668b3] disabled:border-[#e668b3] btn-icon btn-icon-end !rounded-[0.8rem] xl:mx-1 lg:mx-1 md:mx-1"
-                target="_blank"
               >
                 Contact
                 <i className="uil uil-arrow-up-right !ml-[.3rem] before:content-['\e950']" />
-              </a>
+              </Link>
             </span>
           </div>
           {/* /div */}

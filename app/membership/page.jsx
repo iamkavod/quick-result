@@ -34,6 +34,8 @@ export default function MembershipPage1() {
           {/* /.container */}
         </section>
 
+        <WhoCanJoin />
+
         <section id="snippet-1" className="wrapper !bg-[#ffffff] ">
           <div className="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
             <div className="flex flex-wrap mx-[-15px] xl:mx-0 lg:mx-0 !mt-[-50px] items-center">
@@ -155,8 +157,8 @@ export default function MembershipPage1() {
           {/* /.container */}
         </section>
 
-        <WhoCanJoin />
         <Benefits />
+        
       </div>
       <section id="snippet-4" className="wrapper !bg-[#ffffff]">
         <div className="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
@@ -183,7 +185,7 @@ export default function MembershipPage1() {
               {/* /.row */}
               <div className="flex justify-center">
                 <span>
-                  <a className="btn btn-white rounded">Get Started</a>
+                  <a className="btn btn-white rounded">Start Application</a>
                 </span>
               </div>
             </div>

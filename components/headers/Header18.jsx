@@ -14,15 +14,15 @@ export default function Header18() {
             <Link href={`/`}>
               <Image
                 className="logo-dark"
-                srcSet="/assets/img/logo-dark@2x.png 2x"
+                srcSet="/assets/img/logo-dark.svg 2x"
                 alt="image"
-                src="/assets/img/logo-dark.png"
+                src="/assets/img/logo-dark.svg"
                 width={134}
                 height={26}
               />
               <Image
                 className="logo-light"
-                srcSet="/assets/img/logo-light@2x.png 2x"
+                srcSet="/assets/img/logo-light.svg 2x"
                 alt="image"
                 src="/assets/img/logo-light.png"
                 width={134}

@@ -17,9 +17,8 @@ export default function Footer({ hasMarginTop = false }) {
             <div className="widget !text-[#cacaca]">
               <Image
                 className="!mb-4"
-                srcSet="/assets/img/logo-light@2x.png 2x"
                 alt="image"
-                src="/assets/img/logo-light.png"
+                src="/assets/img/logo-light.svg"
                 width={134}
                 height={26}
               />

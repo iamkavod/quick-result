@@ -44,9 +44,9 @@ export default function Header11() {
           <div className="navbar-brand w-full">
             <Link href={`/`}>
               <Image
-                srcSet="/assets/img/logo-dark@2x.png 2x"
+                srcSet="/assets/img/logo-dark.svg 2x"
                 alt="image"
-                src="/assets/img/logo-dark.png"
+                src="/assets/img/logo-dark.svg"
                 width={134}
                 height={26}
               />
