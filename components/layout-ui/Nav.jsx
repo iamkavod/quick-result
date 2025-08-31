@@ -104,16 +104,16 @@ export default function Nav({ color = "#fab758" }) {
       <li className="nav-item">
         <Link
           className={`nav-link !text-[.85rem] !tracking-[normal] hover:!text-[var(--current-color)] after:!text-[var(--current-color)] ${
-            (pathname === "/services")
+            (pathname === "/contact")
               ? "!text-[var(--current-color)]"
               : ""
           } `}
-          href="/services"
+          href="/contact"
         >
-          Services
+          Contact
         </Link>
       </li>
-      <li className="nav-item dropdown">
+      {/* <li className="nav-item dropdown">
         <a
           className={`nav-link dropdown-toggle !text-[.85rem] !tracking-[normal] hover:!text-[var(--current-color)] after:!text-[var(--current-color)]   ${
             (pathname === "/faqs" || pathname === "/news") ? "!text-[var(--current-color)]" : ""
@@ -143,7 +143,7 @@ export default function Nav({ color = "#fab758" }) {
                 </Link>
             </li>
         </ul>
-      </li>
+      </li> */}
     </ul>
   );
 }

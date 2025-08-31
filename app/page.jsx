@@ -3,6 +3,9 @@ import Footer from "@/components/layout-ui/Footer";
 import Header from "@/components/layout-ui/Header";
 import Demoslider from "@/components/preview/Demoslider";
 import Hero from "@/components/preview/Hero";
+import Testimonials from "./Testimonials";
+import WhoCanJoin from "./WhoCanJoin";
+import Benefits from "./Benefits";
 
 export const metadata = {
   title:
@@ -30,6 +33,10 @@ export default function LandingPage() {
                 <Features />
               </div>
             </section>
+
+            <Benefits />
+            <Testimonials />
+            <WhoCanJoin />
 
             <section id="snippet-4" className="wrapper !bg-[#ffffff]">
               <div className="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">

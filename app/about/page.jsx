@@ -1,5 +1,4 @@
 import Team from "@/components/about/Team";
-import { companyInfo } from "@/data/companyinfo";
 import Image from "next/image";
 import Header from "@/components/layout-ui/Header";
 import Footer from "@/components/layout-ui/Footer";

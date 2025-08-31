@@ -1,4 +1,3 @@
-import Testimonials from "./Testimonials";
 import Events from "./Events";
 import CommunityImpact from "./CommunityImpact";
 import Header from "@/components/layout-ui/Header";
@@ -33,8 +32,6 @@ export default function NewsPage() {
           </div>
           {/* /.container */}
         </section>
-
-        <Testimonials />
       </div>
       <div className="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
         <Events />

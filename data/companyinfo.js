@@ -18,7 +18,6 @@ Connecting members for the purpose of rapid individual growth, business growth a
   slogan: `Rapid progress for members, stakeholders and team`,
   team: [
     "Emem Umoh - Team Lead",
-    "Mfon Uwa - Business Development Strategist",
     "Usen Etim - Business Development Strategist",
     "Imaobong Edem - Advicer",
     "Elizabeth Ekong - Advicer",
@@ -35,29 +34,74 @@ Connecting members for the purpose of rapid individual growth, business growth a
     "Travel & Vacation contribution",
   ],
   whoCanJoin: [
-    "18year and above",
-    "Workers",
-    "Entrepreneurs",
-    "Students",
-    "Farmers",
-    "Market Men and Women",
-    "Traders",
-    "Ladies & Gentlemen",
-    "CEOs",
-    "Upper and Middle Class",
+    { category: "18year and above", img: "https://images.unsplash.com/photo-1694175271713-a6e2cc378980?q=80&w=400&auto=format&fit=crop" },
+    { category: "Workers", img: "https://images.unsplash.com/photo-1694175271713-a6e2cc378980?q=80&w=400&auto=format&fit=crop" },
+    { category: "Entrepreneurs", img: "https://images.unsplash.com/photo-1694175271713-a6e2cc378980?q=80&w=400&auto=format&fit=crop" },
+    { category: "Students", img: "https://images.unsplash.com/photo-1694175271713-a6e2cc378980?q=80&w=400&auto=format&fit=crop" },
+    { category: "Farmers", img: "https://images.unsplash.com/photo-1694175271713-a6e2cc378980?q=80&w=400&auto=format&fit=crop" },
+    { category: "Market Men and Women", img: "https://images.unsplash.com/photo-1694175271713-a6e2cc378980?q=80&w=400&auto=format&fit=crop" },
+    { category: "Traders", img: "https://images.unsplash.com/photo-1694175271713-a6e2cc378980?q=80&w=400&auto=format&fit=crop" },
+    { category: "Ladies & Gentlemen", img: "https://images.unsplash.com/photo-1694175271713-a6e2cc378980?q=80&w=400&auto=format&fit=crop" },
+    { category: "CEOs", img: "https://images.unsplash.com/photo-1694175271713-a6e2cc378980?q=80&w=400&auto=format&fit=crop" },
+    { category: "Upper and Middle Class", img: "https://images.unsplash.com/photo-1694175271713-a6e2cc378980?q=80&w=400&auto=format&fit=crop" },
   ],
-  benefits: [
-    "Access to quick loans",
-    "Access to quick start-up funds",
-    "Access to quick scale-up funds",
-    "Access to food and Agro wealth",
-    "Access to lands and housing",
-    "Birthdays and milestones celebration proceeds",
-    "Access to phones and laptops",
-    "Access to Household items",
-    "Travel fares and vacation",
-    "Semi Project financing",
-    "House rents & Mortgage",
+ benefits: [
+    {
+      category: "Access to quick loans",
+      img: "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
+    {
+      category: "Access to quick start-up funds",
+      img: "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
+    {
+      category: "Access to quick scale-up funds",
+      img: "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
+    {
+      category: "Access to food and Agro wealth",
+      img: "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
+    {
+      category: "Access to lands and housing",
+      img: "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
+    {
+      category: "Birthdays and milestones celebration proceeds",
+      img: "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
+    {
+      category: "Access to phones and laptops",
+      img: "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
+    {
+      category: "Access to Household items",
+      img: "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
+    {
+      category: "Travel fares and vacation",
+      img: "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
+    {
+      category: "Semi Project financing",
+      img: "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
+    {
+      category: "House rents & Mortgage",
+      img: "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
+    {
+      category: "Children's Savings and Education Funds",
+      img: "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
+    {
+      category: "Furniture and Household Items",
+      img: "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
+    {
+      category: "Automobiles",
+      img: "httpshttps://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=400&auto=format&fit=crop",
+    },
   ],
   aboutUs: {
     vision: `“To be the Multipurpose Cooperative of Choicr”`,
