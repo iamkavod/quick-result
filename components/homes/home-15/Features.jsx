@@ -14,9 +14,8 @@ export default function Features() {
             <figure className="!rounded-[.4rem] shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] relative">
               <Image
                 className="!rounded-[.4rem]"
-                srcSet="/assets/img/photos/about2@2x.jpg 2x"
                 alt="image"
-                src="/assets/img/photos/about2.jpg"
+                src="https://img.freepik.com/free-photo/portrait-professional-business-people-working-together_23-2150917194.jpg?w=400"
                 width={450}
                 height={450}
               />
@@ -26,9 +25,9 @@ export default function Features() {
             <figure className="!rounded-[.4rem] shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] relative">
               <Image
                 className="!rounded-[.4rem]"
-                srcSet="/assets/img/photos/about3@2x.jpg 2x"
+                srcSet="https://img.freepik.com/free-photo/young-handsome-man-posing_23-2148884333.jpg?w=600 2x"
                 alt="image"
-                src="/assets/img/photos/about3.jpg"
+                src="https://img.freepik.com/free-photo/young-handsome-man-posing_23-2148884333.jpg?w=300"
                 width={450}
                 height={450}
               />

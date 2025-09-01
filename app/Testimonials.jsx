@@ -58,9 +58,8 @@ export default function Testimonials() {
                           <div className="flex items-center text-left">
                             <Image
                               className="!rounded-[50%] !w-[3.5rem]"
-                              srcSet={testimonial.imageSrcSet}
                               alt="image"
-                              src={testimonial.imageSrc}
+                              src="https://avatar.iran.liara.run/public"
                               width="100"
                               height="100"
                             />

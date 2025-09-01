@@ -24,7 +24,7 @@ export default function LandingPage() {
             <section className="wrapper overflow-hidden">
               <Hero />
               {/* /.container */}
-              <Demoslider />
+              {/* <Demoslider /> */}
               {/* /.swiper-container */}
             </section>
             {/* /section */}

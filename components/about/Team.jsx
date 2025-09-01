@@ -56,7 +56,7 @@ export default function Team() {
                       <Image
                         className="rounded-[50%] w-40 !mx-auto !mb-4"
                         alt="image"
-                        src="/assets/img/avatars/t1.jpg" // Placeholder image
+                        src="https://avatar.iran.liara.run/public"
                         width={300}
                         height={300}
                       />

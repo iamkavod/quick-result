@@ -15,7 +15,7 @@ export default function AboutPage() {
       <div className="grow shrink-0">
         <Header />
         <section className="wrapper !bg-[#edf2fc]">
-          <div className="container pt-10 pb-40 xl:pt-[4.5rem] lg:pt-[4.5rem] md:pt-[4.5rem] xl:pb-[17.5rem] lg:pb-[17.5rem] md:pb-[17.5rem] !text-center">
+          <div className="container py-30 xl:pt-[4.5rem] lg:pt-[4.5rem] md:pt-[4.5rem] !text-center">
             <div className="flex flex-wrap mx-[-15px]">
               <div className="xl:w-5/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto !mb-6">
                 <h1 className="!text-[calc(1.365rem_+_1.38vw)] font-bold !leading-[1.2] xl:!text-[2.4rem] !mb-3">
@@ -47,8 +47,8 @@ export default function AboutPage() {
                 <figure className="!rounded-[.4rem] z-[2] relative">
                   <img
                     className="!rounded-[.4rem] "
-                    src="../../assets/img/photos/about7.jpg"
-                    srcSet="../../assets/img/photos/about7@2x.jpg 2x"
+                    src="https://img.freepik.com/free-photo/portrait-professional-business-people-working-together_23-2150917194.jpg?w=400"
+                    srcSet="https://img.freepik.com/free-photo/portrait-professional-business-people-working-together_23-2150917194.jpg?w=800 2x"
                     alt="image"
                   />
                 </figure>
@@ -174,9 +174,9 @@ export default function AboutPage() {
                 <figure className="m-0 p-0">
                   <Image
                     className="w-auto"
-                    srcSet="/assets/img/illustrations/i2@2x.png 2x"
+                    srcSet="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8984.jpg?w=800 2x"
                     alt="image"
-                    src="/assets/img/illustrations/i2.png"
+                    src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8984.jpg?w=400"
                     width={800}
                     height={538}
                   />
